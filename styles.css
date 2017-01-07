@@ -2,8 +2,30 @@
 
 
 body {
+	background-color:pink;
     margin-left: 125px;
     margin-right: 125px;
+}
+
+.intro { 
+    background-color: white;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: right;
+}
+
+div {
+    border: 1px solid black;
+    margin: 100px 150px 100px 80px;
+    background-color:violet;
 }
 
 #top {
@@ -14,14 +36,6 @@ body {
 	color: #F2F2F2;
 }
 
-a:link, a:visited {
-	color:white;
-	text-decoration: none;
-}
-
-a:hover {
-	color:blue;
-}
 
 .footer {
 	font-size: .75em;
@@ -38,16 +52,8 @@ iframe {
 }
 
 main {
-	background-color: lightgray;
+	background-color: pink;
 }
 
 
-article p {
-	text-align: justify;
-	padding: 10px 10px;
-}
 
-article h2 {
-	padding: 5px;
-	margin: 0px;
-}
